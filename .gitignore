@@ -1,0 +1,5 @@
+.python-version
+*.pyc
+dist/
+build/
+slack_async_alert.egg-info/

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cmd="$*"
+if eval $cmd;
+then
+    python -m slack_async_alert.run success "$cmd"
+else
+    python -m slack_async_alert.run fail "$cmd"
+fi

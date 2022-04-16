@@ -26,5 +26,7 @@ slrt python run.py --some random_args --that can_be_passed
 
 
 ## how to build package.
+```
 python setup.py bdist_wheel && pip install -e .
-
+twine upload dist/{generated dist file path}
+```
