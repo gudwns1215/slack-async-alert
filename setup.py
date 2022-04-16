@@ -4,6 +4,8 @@ setup(
     name="slack_async_alert",
     version="1.0.2",
     packages=find_packages(),
+    description="Send slack message if program finished.",
+    long_description=open("README.md").read(),
     package_data={'slack_async_alert': ['slrt']},
     url="https://github.com/gudwns1215/slack_async_alert",
     install_requires=[
